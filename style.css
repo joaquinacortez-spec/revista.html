@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f0f4f1;
+    color: #2d3748;
+    line-height: 1.85;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1b4332, #2d6a4f);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contenedor {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.tarjeta {
+    background: #ffffff;
+    padding: 45px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-top: 6px solid #2d6a4f;
+}
+
+.tarjeta h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1b4332;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 12px;
+}
+
+.tarjeta p.subtitulo-autores {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center !important;
+    color: #3a0ca3 !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+    margin-top: 15px !important;
+    margin-bottom: 35px !important;
+}
+
+.tarjeta p {
+    font-size: 1.08rem;
+    color: #334155;
+    margin-bottom: 24px;
+}
